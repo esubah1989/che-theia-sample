@@ -43,7 +43,7 @@ endpoints:
       discoverable: false
 containers:
  - name: theia-ide
-   image: eclipse/che-theia:next
+   image: quay.io/esubah/che:che
    env:
        - name: THEIA_PLUGINS
          value: local-dir:///plugins
