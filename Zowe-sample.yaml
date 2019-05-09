@@ -1,0 +1,10 @@
+id: zowe-sample
+version: 0.0.3
+type: VS Code extension
+name: Node zowe
+title: Node.js debugging support
+description: Node Debug is the debugger for Node.js versions >= 8.0 https://marketplace.visualstudio.com/items?itemName=ms-vscode.node-debug2
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+attributes:
+  extension: "vscode:extension/Zowe.vscode-extension-for-zowe"
+  container-image: "abazko/ms-vscode.node-debug2"
